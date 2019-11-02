@@ -1,0 +1,31 @@
+{
+  "name": "hackrpi",
+  "version": "1.0.0",
+  "description": "Web Application for Weather Disasters",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scastillosanchez/HACKRPI.git"
+  },
+  "keywords": [
+    "weather",
+    "api",
+    "hackrpi",
+    "ibm",
+    "js"
+  ],
+  "author": "Sebastian Castillo-Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scastillosanchez/HACKRPI/issues"
+  },
+  "homepage": "https://github.com/scastillosanchez/HACKRPI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.3.3"
+  }
+}
