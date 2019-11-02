@@ -5,7 +5,7 @@ const app = express();
 
 //connect to database
 const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://admin:cavalier@cluster0-iwimf.mongodb.net/test?retryWrites=true&w=majority";
+const uri = "mongodb+srv://dbAdmin:hackrpiadmin@cluster0-iwimf.mongodb.net/test?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true});
 
 app.use(bodyParser.json());
